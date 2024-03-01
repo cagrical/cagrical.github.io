@@ -1,0 +1,56 @@
+/*CENG311 Activity 2 css file*/
+
+/*styling for the table goes here*/
+body 
+{
+	border: 1px solid black;
+	width: 700px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
+table 
+{
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin: 20px;
+}
+
+thead 
+{
+	background-color: yellow;
+}
+
+th, td 
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+caption{
+	font-weight: bold;
+	font-size: 25px;
+	margin: 3% 0%;
+}
+
+tbody tr:nth-child(even) td 
+{
+	background-color: yellow;
+}
+
+.total-year{
+	font-weight: bold;
+	text-align: right;
+}
+
+.right{
+	text-align: right;
+}
+
+th[rowspan]{
+	vertical-align: top;
+}
