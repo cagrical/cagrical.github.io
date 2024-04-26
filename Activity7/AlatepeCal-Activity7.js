@@ -19,7 +19,7 @@ function addScore()
 	let name = $("name").value;
 	let score = $("score").value;
 
-	if(name == "" || score == "" || score < 0 || score > 100){
+	if(name == "" || score == "" || score < 0 || score > 100 || isNaN(score)){
 		alert("You must enter a name and a valid score");
 	}else{
 		names.push(name);
