@@ -12,13 +12,19 @@ $(document).ready(function() {
 		var caption = $(this).attr("title");
 
 		if(imageURL != $("#image").attr("src")){
-			$("#image").hide(500, function(){
+			$("#image").fadeOut(1000, function(){
 			
 				$("#image").attr("src", imageURL);
+
+				$("#image").fadeIn(1000);
+			});
+			$("#caption").fadeOut(1000, function(){
+			
 				$("#caption").text(caption);
 
-				$("#image").show(500);
-			});}
+				$("#caption").fadeIn(1000);
+			});
+		}
 
 		// cancel the default action of the link
 	    evt.preventDefault();
