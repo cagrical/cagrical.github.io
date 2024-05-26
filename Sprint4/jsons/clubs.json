@@ -1,0 +1,7 @@
+{"clubs":
+[
+    { "clubName":"Hezarfen Kulübü", "clubImage":"hezarfen.png", "clubHead": "Sergen Yalçın", "memberNum": 14, "clubScope": "Technology", "clubLink":"hezarfen"},
+    { "clubName":"Atatürkçü Düşünce Topluluğu", "clubImage":"adt.png", "clubHead": "Jason Statham", "memberNum": 24, "clubScope": "Sociology", "clubLink":"adt"},
+    { "clubName":"Biltek Kulübü", "clubImage":"biltek.png", "clubHead": "Marco Reus", "memberNum": 7, "clubScope": "Technology", "clubLink":"biltek"}
+]
+}

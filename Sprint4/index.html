@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.3/jquery-ui.css"/>
+    <script src="https://kit.fontawesome.com/ff149b1df1.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="jQuery.js"></script>
+ 
+    <script type="text/javascript" src="jquery-ui-1.13.3/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.3/dist/jBox.all.min.js"></script>
+    <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js"></script>
+    <link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.3/dist/jBox.all.min.css" rel="stylesheet">
+    
+    <title>Academy Social</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="nav-header">
+        <a href="index.html">
+          <img src="images/logo.png" alt="logo">
+        </a>
+      </div>
+
+      <div class="nav-search">
+        <input type="text" class="search-input" id="search-input" placeholder="Search a friend">
+        <button type="button" class="search-btn">Search</button><!-- <i class="fa-solid fa-magnifying-glass"></i>  -->
+      </div>
+
+      <div class="nav-items">
+        <ul class="nav-list">
+          <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+          <li><a href="clubs.html"><i class="fa-solid fa-people-roof"></i></a></li>
+          <li><a href="profilepage.html?username=altpebush"><i class="fas fa-user"></i></a></li>
+          <li><a href="contact-us.html"><i class="fa-solid fa-envelopes-bulk"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Homepage Content -->
+    <div class="container">
+
+      <div class="left">
+        <div class="subjects">
+          <h3>Subjects</h3>
+          <div class="subject-list"></div>
+        </div>
+
+        <div class="clubs">
+          <h3>Clubs</h3>
+          <div class="club-list">
+          </div>
+        </div>
+      </div>
+
+      <div class="posts">
+
+        <div class="weather">
+          <p class="weather-temp">Weather Temperature: <span id="temperature"></span> °C</p>
+          <p class="weather-loc">Location: <span id="location"></span></p>
+        </div>
+
+        <div class="post">
+          <h1>Post</h1>
+          <textarea placeholder="Enter your opinions..." class="share-content form-elements" cols="100" rows="5"></textarea>
+          <button type="button" class="share-btn">Share</button>
+        </div>
+        
+        <div class="posts-section"></div>
+      </div>
+
+      <div class="news" id="news">
+        <h3 class="news-title">News</h3>
+      </div>
+    </div>
+
+    <div class="footer">
+      <img src="images/logo.png" alt="">
+      <div class="copyright">
+        <i class="fa-regular fa-copyright"></i>
+        <span>All Rights Reserved.</span>
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>

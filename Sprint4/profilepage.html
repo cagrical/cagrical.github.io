@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.3/jquery-ui.css"/>
+    <script src="https://kit.fontawesome.com/ff149b1df1.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="jQuery.js"></script>
+    <script type="text/javascript" src="jquery-ui-1.13.3/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.3/dist/jBox.all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.3/dist/jBox.all.min.css" rel="stylesheet">
+    <title>Profile</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-header">
+          <a href="index.html">
+            <img src="images/logo.png" alt="logo">
+          </a>
+        </div>
+  
+        <div class="nav-search">
+          <input type="text" class="search-input" id="search-input" placeholder="Search a friend">
+          <button type="button" class="search-btn">Search</button><!-- <i class="fa-solid fa-magnifying-glass"></i>  -->
+        </div>
+  
+        <div class="nav-items">
+          <ul class="nav-list">
+            <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+            <li><a href="clubs.html"><i class="fa-solid fa-people-roof"></i></a></li>
+            <li><a href="profilepage.html?username=altpebush"><i class="fas fa-user"></i></a></li>
+            <li><a href="contact-us.html"><i class="fa-solid fa-envelopes-bulk"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+
+     <!-- Profile Page Content -->
+
+     <div class="profile-container">
+        <img  src="" class="cover-picture">
+        <div class="profile">
+            <div class="profile-info">
+                <img class="profile-picture" src="">
+                <h2 class="username"></h2>
+                <p class="bio"></p>
+            </div>
+            <div class="followed-clubs"></div>
+        </div>
+        <div class="about-cv">
+            <div class="aboutme">
+                <div class="aboutme-header"><h3>About Me</h3></div>
+                <p><strong>Phone number : </strong><span id="phoneNum"></span></p>
+                <p><strong>Birth day : </strong><span id="birthday"></span></p>
+                <p><strong>University : </strong><span id="university"></span></p>
+                <p><strong>Faculty : </strong><span id="faculty"></span></p>
+                <p><strong>Departmant : </strong><span id="department"></span></p>
+                <p><strong>Hobbies : </strong><span id="hobbies"></span></p>
+                <p><strong>Country : </strong><span id="country"></span></p>
+                <p><strong>City : </strong><span id="city"></span></p>
+            </div>
+        </div>
+     </div>
+
+     <div class="footer">
+        <img src="images/logo.png" alt="">
+        <div class="copyright">
+          <i class="fa-regular fa-copyright"></i>
+          <span>All Rights Reserved.</span>
+        </div>
+      </div>
+
+      <script src="javascript.js"></script>
+</body>
+</html>

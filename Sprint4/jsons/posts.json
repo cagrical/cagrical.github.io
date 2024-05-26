@@ -1,0 +1,15 @@
+{"posts":
+[
+    { "name":"Çağrı Çal", "content":"Hello there! These website is useful for all students.", "time": "14:58", "image": "non-image.png", "tag": ""},
+    { "name":"Sude Nur Kibaroğlu", "content":"Is the class postponed?", "time": "15:34", "image": "non-image.png", "tag": ""},
+    { "name":"Taha Yasin Kuvan", "content":"My gpa is 3.87! What is yours?", "time": "19:32", "image": "non-image.png", "tag": ""},
+    { "name":"Ebubekir Alatepe", "content":"People who wants to attend Hezarfen Club. Please reach me!", "time": "21:11", "image": "non-image.png", "tag": ""},
+    { "name":"Çağrı Çal", "content":"Aybuzem is not working.", "time": "12:54", "image": "non-image.png", "tag": "aybuzem"},
+    { "name":"Sude Nur Kibaroğlu", "content":"Who did hack Aybuzem???", "time": "13:21", "image": "non-image.png", "tag": "aybuzem"},
+    { "name":"Taha Yasin Kuvan", "content":"I can not reach to the courses...", "time": "15:12", "image": "non-image.png", "tag": "aybuzem"},
+    { "name":"Ebubekir Alatepe", "content":"Classrooms are dirty!", "time": "11:11", "image": "non-image.png", "tag": "classrooms"},
+    { "name":"Çağrı Çal", "content":"I've lost my pencil at B414", "time": "13:24", "image": "non-image.png", "tag": "classrooms"},
+    { "name":"Sude Nur Kibaroğlu", "content":"Classrooms design is so cooolll!!!!", "time": "16:21", "image": "non-image.png", "tag": "classrooms"},
+    { "name":"Taha Yasin Kuvan", "content":"I can't study at that classrooms. Change them!", "time": "22:12", "image": "non-image.png", "tag": "classrooms"}
+]
+}
